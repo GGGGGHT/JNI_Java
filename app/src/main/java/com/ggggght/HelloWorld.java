@@ -2,7 +2,11 @@ package com.ggggght;
 
 public class HelloWorld {
 	static {
-		System.loadLibrary("");
+		System.loadLibrary("native");
 	}
-	public native void hello();
+	public native String hello();
+
+	public static void main(String[] args) {
+		new HelloWorld().hello();
+	}
 }
