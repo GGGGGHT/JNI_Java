@@ -9,9 +9,11 @@
 //extern "C" {
 //#endif
 
+using namespace std;
+
 JNIEXPORT void JNICALL Java_com_baeldung_jni_HelloWorldJNI_sayHello
   (JNIEnv* env, jobject thisObject) {
-    std::cout << "Hello from C++ !!" << std::endl;
+    cout << "Hello from C++ !!" << endl;
 }
 
 //#ifdef __cplusplus
