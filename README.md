@@ -1,5 +1,5 @@
 # JNI_Java
-use JIN call C/C++ print hello world 
+use JNI call C/C++ print hello world 
 
 ## code
 [Java_Source](app/src/main/java/com/ggggght/HelloWorld.java)定义native方法
