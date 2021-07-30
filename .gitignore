@@ -11,3 +11,5 @@ build
 *.dll
 
 *.dylib
+
+*.o
