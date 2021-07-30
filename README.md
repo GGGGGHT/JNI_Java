@@ -1,7 +1,7 @@
 # JNI_Java
 use JNI call C/C++ print hello world
 
-## code
+## hello world code
 [Java_Source](app/src/main/java/com/ggggght/sayhello/HelloWorld.java)定义native方法
 ```java
 public native void hello();
@@ -42,4 +42,11 @@ java -cp . -Djava.library.path=/NATIVE_SHARED_LIB_FOLDER com.ggggght.sayhello.He
 1. -Djava.library.path 配置链接库的地址
 2. 使用System.load(${fqdn})去加载生成的链接库的地址
 
+## JNI的缺陷
+- 平台的依赖 失去了<b>write once, run anywhere!</b>的特性
+- 增加了复杂性 在运行的JVM与native方法中增加了通信的成本
+
+## 结论
+- 为特定平台编译代码通常比直接运行字节码更快
+- 使用管理设备的库
 
