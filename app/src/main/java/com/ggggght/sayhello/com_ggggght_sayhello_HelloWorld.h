@@ -2,8 +2,8 @@
 #include <jni.h>
 /* Header for class com_ggggght_HelloWorld */
 
-#ifndef _Included_com_ggggght_HelloWorld
-#define _Included_com_ggggght_HelloWorld
+#ifndef _Included_com_ggggght_sayhello_HelloWorld
+#define _Included_com_ggggght_sayhello_HelloWorld
 #ifdef __cplusplus
 extern "C" {
 #endif
