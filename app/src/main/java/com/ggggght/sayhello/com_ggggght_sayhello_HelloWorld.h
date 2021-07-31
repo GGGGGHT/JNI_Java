@@ -12,7 +12,7 @@ extern "C" {
  * Method:    hello
  * Signature: ()Ljava/lang/String;
  */
-JNIEXPORT jstring JNICALL Java_com_ggggght_HelloWorld_hello
+JNIEXPORT jstring JNICALL Java_com_ggggght_sayhello_HelloWorld_hello
   (JNIEnv *, jobject);
 
 #ifdef __cplusplus
